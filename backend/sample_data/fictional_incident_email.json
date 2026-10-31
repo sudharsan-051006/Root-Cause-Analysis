@@ -1,0 +1,5 @@
+{
+  "subject": "URGENT: Deviation Notification - Batch ATC-2026-B089 Residual Solvent OOS on CVD-04",
+  "sender": "elena.vance@apexchempharma.com (Shift Production Lead)",
+  "content": "QA Investigations Team,\n\nPlease log an immediate investigation for Atorvastatin Calcium Trihydrate batch ATC-2026-B089 produced in Sterile API Block B, Room 204.\n\nDuring QC release testing today (2026-10-24), residual acetone tested at 5,840 ppm (Repeat test: 5,815 ppm) against specification limit of NMT 5,000 ppm.\n\nPreliminary shift log review indicates the vacuum drying process on Conical Vacuum Dryer CVD-04 was terminated after 14.5 hours instead of the SOP-PRD-502 mandated 18.0 hours because the operator responded to an intermittent high-condenser temperature warning alarm (chilled water return recorded at 18.4°C vs limit of 15°C).\n\nBatch ATC-2026-B089 (6 drums, 312.4 kg) has been placed under quarantine in Bay 3. Equipment CVD-04 is locked out. Laboratory testing error has been ruled out.\n\nPlease proceed with AI-assisted Root Cause Analysis immediately."
+}

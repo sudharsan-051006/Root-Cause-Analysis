@@ -1,0 +1,34 @@
+PHARMACEUTICAL MANUFACTURING INCIDENT REPORT
+Incident Number: INC-2026-0894
+Date of Occurrence: 2026-10-24 04:15 UTC
+Facility / Plant: Unit-3 API Manufacturing Complex, Block B, Sterile Powder Facility
+Reporting Person: Vikram Patel (Senior Shift Production Chemist)
+Department: API Production & Drying Operations
+
+1. PRODUCT & BATCH IDENTIFICATION
+Product Name: Atorvastatin Calcium Trihydrate (Micronized API)
+Internal Material Code: RM-ATC-003
+Batch Number: ATC-2026-B089
+Batch Size: 450.0 kg
+Manufacturing Step: Step 07 - Rotary Vacuum Cone Drying (Equipment ID: CVD-04)
+Standard Operating Procedure: SOP-PRD-402 Rev 08 ("Vacuum Drying of Statins")
+
+2. INCIDENT / DEVIATION DESCRIPTION
+During final QC release testing for batch ATC-2026-B089, QC Chemist reported an Out of Specification (OOS) result for Residual Acetone via Headspace Gas Chromatography (GC-HS Method QC-MTH-114).
+- Result Observed: 5,840 ppm (Repeat injections: 5,810 ppm, 5,860 ppm; Mean: 5,837 ppm)
+- Specification Limit: <= 5,000 ppm (USP / ICH Q3C Class 3 Solvents)
+- Impact: 450 kg batch is quarantined in intermediate staging room ISO 8 under QA Hold tag #QH-892.
+
+3. TIMELINE & CHRONOLOGY OF MANUFACTURING
+- 2026-10-23 18:00: Wet centrifuge cake (620 kg wet weight) transferred from Basket Centrifuge BC-02 into Conical Vacuum Dryer CVD-04.
+- 2026-10-23 20:30: Drying program initiated at target jacket temperature 45 +/- 2 deg C under absolute vacuum <= 20 mbar.
+- 2026-10-24 01:15: Chilled water condenser utility pressure dipped from 3.5 bar to 1.8 bar due to facility chiller CH-01 trippage.
+- 2026-10-24 01:30 - 05:00: Dryer vacuum level degraded from 18 mbar to 85 mbar. Jacket temperature sensor TT-102 dropped to 38 deg C.
+- 2026-10-24 06:00: Shift handover note recorded: "Dryer vacuum slightly sluggish, operator increased heat to 48 deg C for 30 min".
+- 2026-10-24 08:30: Loss on Drying (LOD) check passed at 0.42% (spec <= 0.5%), dryer discharged without verifying residual volatile organic solvents.
+
+4. OBSERVATIONS & IMMEDIATE ACTIONS
+- Rotary vacuum pump VP-02 mechanical seal exhibited minor oil weeping upon post-incident physical inspection.
+- Condenser shell vent valve CV-04B was found partially clogged with dried fine statin dust cake.
+- In-process drying logsheet (Form F-PRD-402A) was missing the hourly vacuum recorder signatures between 02:00 and 05:00.
+- Immediate Action: CVD-04 quarantined for engineering audit. Re-drying protocol initiated for QA review.

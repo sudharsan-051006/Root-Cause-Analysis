@@ -1,0 +1,23 @@
+DEVIATION & INVESTIGATION REPORT
+Report Number: DEV-2026-PW-031
+Date: 2026-10-27
+Manufacturing Facility: Active Pharmaceutical Ingredient Block C, Sterile Finished Synthesis
+API Product: Losartan Potassium USP
+Batch Number: LP-2026-8810
+Equipment Involved: Centrifuge CF-01, Purified Water Loop POU-W04
+
+PROBLEM DESCRIPTION:
+Microbiology laboratory reported Bacterial Endotoxin test failure for final cake wash sample taken during the washing of Losartan Potassium batch LP-2026-8810.
+- Observed Value: 0.38 EU/mg (by Kinetic Chromogenic LAL Assay, Method QC-MIC-04)
+- Acceptance Criteria: <= 0.10 EU/mg
+- Concomitant Bioburden Result: 140 CFU/100 mL (Action Limit: 10 CFU/100 mL, Alert Limit: 5 CFU/100 mL)
+
+INVESTIGATION FINDINGS:
+1. The Purified Water (PW) loop distribution line valve POU-W04 feeding centrifuge wash line was found to have a dead-leg length ratio of 4.8D, which exceeds the cGMP engineering guideline of <= 1.5D.
+2. Review of the automated thermal sanitization logsheet (SCADA Log PW-OCT-25) revealed that the routine Sunday 80 deg C hot water sanitization cycle was interrupted 35 minutes into the 120-minute cycle due to a facility diesel generator load switchover.
+3. The sanitization cycle was never re-run or acknowledged by the utilities supervisor because the SCADA alarm acknowledge button was cleared remotely without a corrective thermal re-cycle.
+4. Microbial isolate identification confirmed presence of Ralstonia pickettii, a known biofilm-forming waterborne gram-negative bacillus.
+5. In addition, the centrifuge wash spray nozzle SN-02 was inspected and showed slight scale accumulation and moisture pooling around the gasket groove.
+
+IMPACT ASSESSMENT:
+Batch LP-2026-8810 (720 kg, commercial market value $145,000) cannot be released for API micronization and packaging. Adjoining batches LP-2026-8809 and LP-2026-8811 are held pending microbial rinse re-testing.

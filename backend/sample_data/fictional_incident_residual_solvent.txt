@@ -1,0 +1,56 @@
+*** FICTIONAL DEMONSTRATION DATA - FOR QUALIROOT AI TESTING ONLY ***
+NON-CONFORMANCE / MANUFACTURING INCIDENT REPORT
+Report ID: INC-2026-0842
+Facility: Apex ChemPharma Manufacturing Facility 2, Sterile API Block B, Room 204
+Date of Occurrence: 2026-10-24
+Reporting Lead: Dr. Elena Vance (Senior Production Shift Supervisor)
+
+1. INCIDENT OVERVIEW:
+Product / API: Atorvastatin Calcium Trihydrate (USP/EP Grade)
+Batch Number: ATC-2026-B089
+Process Stage: Stage 5 - Final Vacuum Drying & Delumping
+Equipment: Conical Vacuum Dryer CVD-04 (Asset Tag: EQ-CVD-04-B)
+Investigation Owner: Quality Assurance Operations - Investigation Unit
+
+2. PROBLEM STATEMENT / WHAT HAPPENED:
+During routine release testing for batch ATC-2026-B089, QC Analytical Laboratory reported an Out-of-Specification (OOS) result for residual solvent (Acetone). 
+- Observed Laboratory Result: 5,840 ppm (0.584% w/w) via Headspace GC-FID (Sample ID: QC-2026-S1042).
+- Acceptance Criteria / Specification Limit: NMT 5,000 ppm (0.50% w/w) in accordance with ICH Q3C (R8) Class 3 Solvent limits and Apex Finished API Specification SP-ATC-003 Rev 4.
+- Expected Condition: Final dried powder with residual acetone content strictly <= 5,000 ppm, with historical process mean running at 2,400 ± 350 ppm.
+
+3. MANUFACTURING PROCESS OBSERVATIONS:
+- According to Batch Manufacturing Record (BMR) Section 8.4, the final drying cycle on Conical Vacuum Dryer CVD-04 was initiated at 06:15 on 2026-10-23.
+- Target drying temperature: 50°C ± 2°C at a vacuum depth of <= 15 mbar.
+- Reported Drying Duration in shift log: 14.5 hours. However, standard validated operating procedure SOP-PRD-502 specifies a minimum drying duration of 18.0 hours under vacuum prior to sampling.
+- Operator shift handover log noted: "Operator shifted drying program to cooling cycle early at 20:45 due to an intermittent high-condenser temperature warning chime on CVD-04 control panel."
+- Nitrogen sweep purge pressure indicator read 0.2 bar (target: 0.5 ± 0.1 bar).
+
+4. IMMEDIATE CONTAINMENT ACTIONS TAKEN:
+- Quarantine status immediately applied in ERP/MES to Batch ATC-2026-B089.
+- Yellow quarantine tags physically attached to all six stainless steel powder transport drums (Drums 1 through 6, total gross weight: 312.4 kg) located in API Staging Area Bay 3.
+- Vacuum dryer CVD-04 tagged out of service pending QA and Engineering evaluation.
+- Analytical OOS confirmed by repeat injection by secondary analyst per OOS SOP-QC-019 (Repeat result: 5,815 ppm). Laboratory error ruled out.
+
+5. PROCESS PARAMETERS RECORDED:
+- Dryer Jacket Temperature: 49.8°C (nominal)
+- Vacuum Level: 14.2 mbar (nominal)
+- Chilled Water Return Temp to Condenser: 18.4°C (alarm threshold > 15°C)
+- Condenser pressure: Normal
+- Initial wet cake weight: 420.0 kg
+
+6. POTENTIAL QUALITY & DOWNSTREAM IMPACT:
+- Batch ATC-2026-B089 cannot be released into commercial finished dosage supply in its current state.
+- Residual acetone exceeding ICH threshold represents a direct non-compliance with drug substance filing specifications.
+- Risk of degradation or altered polymorphic form if prolonged thermal stress is improperly applied without validated rework protocol.
+
+7. DOCUMENTS AND RECORDS REFERENCED:
+- BMR BMR-ATC-B089 (Sections 8.1 - 8.5)
+- QC Analytical Test Certificate CoA-2026-9921
+- SOP-PRD-502: Operation and Drying Cycle of Conical Vacuum Dryers
+- Maintenance Log for CVD-04 condenser refrigeration unit
+
+[NOTE: The following records were NOT attached or provided in this initial report:
+- CVD-04 SCADA electronic continuous temperature & vacuum trend logs
+- Chilled water loop central cooling utility logs for Block B
+- Calibration certificates for temperature sensors TE-204-1 and TE-204-2
+- Raw material solvent certificate of analysis for Acetone Lot AC-9918]

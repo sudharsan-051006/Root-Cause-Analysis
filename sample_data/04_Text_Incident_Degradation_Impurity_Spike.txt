@@ -1,0 +1,19 @@
+MANUFACTURING INVESTIGATION REPORT
+Deviation Reference: DEV-2026-OMP-018
+Date of Report: 2026-10-28
+Product: Omeprazole Sodium Sterile API
+Batch Number: OMP-2026-304
+Equipment: Industrial Production Lyophilizer LY-02 (Chamber Capacity 1,500 L)
+
+DEVIATION SUMMARY:
+During finished API QC release testing by Reverse-Phase HPLC (Method HPLC-ST-09), a significant degradation peak was observed at relative retention time (RRT) 1.42 corresponding to Omeprazole Sulfone (Impurity D).
+- Observed Value: 0.48% w/w
+- Specified Limit: NMT 0.15% w/w (ICH Q3A Identification threshold exceeded)
+- Appearance: Reconstituted solution showed yellowish-brown haze instead of clear, colorless solution.
+
+CHRONOLOGY & PROCESS OBSERVATIONS:
+- Lyophilization cycle ran for 54 hours according to lyophilization recipe OMP-LYO-04.
+- During secondary drying at +25 deg C, chamber vacuum broke prematurely at hour 42.1 due to a pneumatic actuator seal failure on vacuum isolation valve V-12.
+- Instead of maintaining high-purity medical grade Nitrogen purge (N2 purity >= 99.999%), ambient cleanroom air with 21% oxygen and 45% relative humidity leaked into the sub-ambient sublimation chamber for approximately 3 hours before operators noticed the differential pressure gauge error.
+- Omeprazole is notoriously moisture-sensitive and prone to oxidative degradation when exposed to oxygen in amorphous state at room temperature.
+- The chamber O2 sensor (OX-401) was overdue for 6-month calibration by 18 days, which prevented early automated trip of the emergency inert gas blanketing system.

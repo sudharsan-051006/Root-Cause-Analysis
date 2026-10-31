@@ -1,0 +1,38 @@
+EMAIL INGESTION REPORT
+==================================================
+SUBJECT:
+URGENT: Yield Drop (61% vs 84%) and Form II Polymorphic Impurity in Metformin HCl Lot MET-2026-0412
+
+SENDER:
+Dr. Divya Gupta, Senior Lead Chemist, API Crystallization & Process Development <d.gupta@sunshinepharma.com>
+
+EMAIL CONTENT:
+Hi Quality Team and Operations Leadership,
+
+I am raising an urgent notification regarding Metformin Hydrochloride synthesis Batch MET-2026-0412 manufactured in Synthesis Suite SS-02 on October 26, 2026.
+
+During final filtration at Nutsche Filter Dryer NF-03, we observed an alarming yield deficit:
+- Expected Theoretical Yield: 82.0% - 85.0% (target 1,250 kg)
+- Actual Harvested Yield: 61.2% (918 kg) - a shortfall of over 330 kg active ingredient!
+
+More critically, preliminary XRPD (X-Ray Powder Diffraction) analysis conducted this morning by the Solid State Characterization lab indicates an unexpected polymorphic shift:
+- Result: 9.4% Polymorphic Form II detected
+- Finished Product Specification: NMT 1.0% Form II (Form I is the required crystalline polymorph for therapeutic equivalence).
+- Dissolution Rate Profile: Showed significant retardation at 15 minutes (68% vs standard >= 85%).
+
+Key findings from our shift post-mortem:
+1. Tank RX-02 automated temperature controller TC-204 experienced a calibration drift of +4.2 deg C, causing an unmonitored thermal shock: jacket coolant slammed the reaction mass from 78 deg C down to 32 deg C in 22 minutes (standard ramp profile is 0.8 deg C/min over 60 minutes).
+2. The rapid thermal quench induced violent secondary nucleation rather than controlled crystal growth.
+3. Agitator RPM was noted at 180 RPM on the local VFD display, whereas SOP-PRD-210 strictly mandates gentle agitation at 80-90 RPM during seed addition to prevent shear-induced crystal attrition.
+4. The micronized seed crystal slurry was added 18 minutes prior to reaching the metastable zone limit because the operator relied on a wall clock rather than the in-line turbidity probe (TB-101).
+
+Immediate containment:
+- Batch MET-2026-0412 is locked in Warehouse Bin WH-WH3 under QA quarantine lock.
+- Synthesis Tank RX-02 is taken offline pending metrology recalibration of TC-204 and VFD tachometer check.
+
+Please initiate an expedited Root Cause Analysis (RCA) and evidence gap review.
+
+Best regards,
+Dr. Divya Gupta
+Senior Lead Chemist - Process Development
+Sunshine Pharmaceutical Active Ingredients Ltd.
